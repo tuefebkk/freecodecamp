@@ -55,7 +55,7 @@
     "helmet": "~0.9.0",
     "helmet-csp": "^0.2.3",
     "jade": "~1.8.0",
-    "less": "~1.7.5",
+    "less": "~2.0.0",
     "less-middleware": "~2.0.1",
     "lodash": "^3.9.3",
     "loopback": "https://github.com/FreeCodeCamp/loopback.git#fix/no-password",
