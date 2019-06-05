@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:http-signature:20150122':
+    - yui > request > http-signature:
+        patched: '2018-07-03T08:08:13.809Z'
+  'npm:lodash:20180130':
+    - thundercats > supermixer > lodash:
+        patched: '2018-07-03T08:08:13.809Z'
+    - thundercats > stampit > lodash:
+        patched: '2018-07-03T08:08:13.809Z'
+    - thundercats > stampit > supermixer > lodash:
+        patched: '2018-07-03T08:08:13.809Z'
